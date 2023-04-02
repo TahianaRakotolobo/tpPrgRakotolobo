@@ -11,7 +11,6 @@
             <ui:param name="titre" value="Exercice 2"/>
 
             <ui:define name="content">
-                <h1>Application&gt;affichage__2</h1>
                 Les nombres : <br/>
                 <ui:repeat value="#{bean.nombresSuivants}" var="n" varStatus="status">
                     #{n + 1}#{! status.last ? ', ' : ''}
